@@ -32,6 +32,10 @@ witbot.hears('marc_gay', 0.5, function (bot, message, outcome) {
   bot.reply(message, 'Marc is so gay...')
 })
 
+witbot.hears('status', 0.5, function (bot, message, outcome) {
+  bot.reply(message, 'Status: running, Target: http://github.com/tehp/flofe')
+})
+
 
 
 
