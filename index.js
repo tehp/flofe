@@ -55,4 +55,4 @@ witbot.hears('get_datetime', 0.5, function (bot, message, outcome) {
     }
     bot.reply(message, msg)
   })
-}
+})
