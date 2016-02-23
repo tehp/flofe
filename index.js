@@ -43,18 +43,8 @@ witbot.hears('fuck_off', 0.5, function (bot, message, outcome) {
   bot.reply(message, 'Fuck you too, cock sucker.')
 })
 
+
 witbot.hears('get_datetime', 0.5, function (bot, message, outcome) {
-  bot.reply(message, 'idk lol')
-})
-
-
-
-
-
-
-var weather = require('./weather')(openWeatherApiKey)
-
-witbot.hears('weather', 0.5, function (bot, message, outcome) {
   console.log(outcome.entities.location)
   if (!outcome.entities.location || outcome.entities.location.length === 0) {
     bot.reply(message, 'I\'d love to give you the weather but for where?')
