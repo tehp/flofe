@@ -1,5 +1,5 @@
-name: sample wit bot
-description: This is just a sample witbot
+name: flofeBOT
+description: The flofe slack bot
 config:
   - name: OPENWEATHER_KEY
     friendly_name: Open Weather API Key
