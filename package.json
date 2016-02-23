@@ -1,0 +1,25 @@
+{
+  "name": "witbot-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tehp/flofe.git"
+  },
+  "author": "Mac Craig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tehp/flofe/issues"
+  },
+  "homepage": "https://github.com/tehp/flofe#readme",
+  "dependencies": {
+    "botkit": "0.0.4",
+    "request": "^2.67.0",
+    "witbot": "^1.0.1"
+  },
+  "description": ""
+}
