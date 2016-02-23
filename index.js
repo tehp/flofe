@@ -46,27 +46,3 @@ witbot.hears('fuck_off', 0.5, function (bot, message, outcome) {
 witbot.hears('love', 0.5, function (bot, message, outcome) {
   bot.reply(message, 'I love you too! :heart_decoration:')
 })
-
-
-
-
-var weather = require('./weather')(openWeatherApiKey)
-
-witbot.hears('get_datetime', 0.5, function (bot, message, outcome) {
-
-  console.log(outcome.entities.location)
-  if (!outcome.entities.location || outcome.entities.location.length === 0) {
-    bot.reply(message, 'I\'d love to give you the weather but for where?')
-    return
-  }
-
-  var location = outcome.entities.location[0].value
-  weather.get(location, function (error, msg) {
-    if (error) {
-      console.error(error)
-      bot.reply(message, 'uh oh, there was a problem getting the weather')
-      return
-    }
-    bot.reply(message, msg)
-  })
-})
