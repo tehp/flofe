@@ -47,10 +47,6 @@ witbot.hears('love', 0.5, function (bot, message, outcome) {
   bot.reply(message, 'I love you too! :heart_decoration:')
 })
 
-witbot.hears('how_are_you', 0.5, function (bot, message, outcome) {
-  bot.reply(message, 'I'm pretty good, how are you?)
-})
-
 
 
 
