@@ -28,6 +28,15 @@ witbot.hears('hello', 0.5, function (bot, message, outcome) {
   bot.reply(message, 'Hello to you as well!')
 })
 
+witbot.hears('marc_gay', 0.5, function (bot, message, outcome) {
+  bot.reply(message, 'Marc is so gay...')
+})
+
+
+
+
+
+
 var weather = require('./weather')(openWeatherApiKey)
 
 witbot.hears('weather', 0.5, function (bot, message, outcome) {
