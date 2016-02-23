@@ -44,7 +44,7 @@ witbot.hears('fuck_off', 0.5, function (bot, message, outcome) {
 })
 
 witbot.hears('love', 0.5, function (bot, message, outcome) {
-  bot.reply(message, 'I love you too! :love:')
+  bot.reply(message, 'I love you too! :heart_decoration:')
 })
 
 
