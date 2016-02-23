@@ -36,7 +36,7 @@ witbot.hears('marc_gay', 0.5, function (bot, message, outcome) {
 })
 
 witbot.hears('status', 0.5, function (bot, message, outcome) {
-  bot.reply(message, 'Status: running, Target: http://github.com/tehp/flofe')
+  bot.reply(message, 'FLOFE BOT STATUS: Active. Power level: Over 9000. Target: http://github.com/tehp/flofe')
 })
 
 witbot.hears('fuck_off', 0.5, function (bot, message, outcome) {
