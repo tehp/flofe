@@ -44,6 +44,10 @@ witbot.hears('fuck_off', 0.5, function (bot, message, outcome) {
 })
 
 
+
+
+var weather = require('./weather')(openWeatherApiKey)
+
 witbot.hears('get_datetime', 0.5, function (bot, message, outcome) {
 
   var location = outcome.entities.location[0].value
