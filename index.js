@@ -43,6 +43,10 @@ witbot.hears('fuck_off', 0.5, function (bot, message, outcome) {
   bot.reply(message, 'Fuck you too, cock sucker.')
 })
 
+witbot.hears('get_datetime', 0.5, function (bot, message, outcome) {
+  bot.reply(message, 'idk lol')
+})
+
 
 
 
