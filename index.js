@@ -24,6 +24,9 @@ controller.hears('.*', 'direct_message,direct_mention', function (bot, message) 
   witbot.process(message.text, bot, message)
 })
 
+
+
+
 witbot.hears('hello', 0.5, function (bot, message, outcome) {
   bot.reply(message, 'Hello to you as well!')
 })
@@ -34,6 +37,10 @@ witbot.hears('marc_gay', 0.5, function (bot, message, outcome) {
 
 witbot.hears('status', 0.5, function (bot, message, outcome) {
   bot.reply(message, 'Status: running, Target: http://github.com/tehp/flofe')
+})
+
+witbot.hears('fuck_off', 0.5, function (bot, message, outcome) {
+  bot.reply(message, 'Fuck you too, cock sucker.')
 })
 
 
